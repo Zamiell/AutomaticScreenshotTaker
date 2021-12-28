@@ -1,8 +1,10 @@
 ﻿using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
+using System;
+using System.Text.RegularExpressions;
 
-namespace AutomaticScreenshoterTaker
+namespace AutomaticScreenshotTaker
 {
     public class ModEntry : Mod
     {
@@ -19,15 +21,37 @@ namespace AutomaticScreenshoterTaker
                 return;
             }
 
-            var msg = $"Loaded area: {e.NewLocation.Name}.";
+            var areaName = e.NewLocation.Name;
+            var msg = $"Loaded area: {areaName}";
             this.Monitor.Log(msg, LogLevel.Debug);
+
+            var emptyElevatorFloor = false;
+            if (areaName.StartsWith("UndergroundMine")) {
+                Regex regex = new Regex(@"\d+");
+                Match match = regex.Match(areaName);
+                if (match.Success) {
+                    var floorNumString = match.Value;
+                    int floorNum = Int32.Parse(floorNumString);
+                    if (floorNum % 10 == 0)
+                    {
+                        emptyElevatorFloor = true;
+                    }
+                }
+            }
+
+            if (areaName == "Mine")
+            {
+                PauseGame();
+                return;
+            }
 
             // The game lags every time we take a screenshot,
             // so we only do it when needed
-            if (e.NewLocation.Name.StartsWith("Underground"))
+            if (areaName == "BusStop" || (areaName.StartsWith("Underground") && !emptyElevatorFloor))
             {
                 PauseGame();
                 TakeScreenshot();
+                return;
             }
         }
 

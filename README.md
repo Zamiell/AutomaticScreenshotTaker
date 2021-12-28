@@ -1,2 +1,2 @@
-# AutomaticScreenshoterTaker
+# AutomaticScreenshotTaker
 A Stardew Valley mod

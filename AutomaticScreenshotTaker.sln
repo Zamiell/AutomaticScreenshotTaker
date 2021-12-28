@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomaticScreenshoterTaker", "AutomaticScreenshoterTaker\AutomaticScreenshoterTaker.csproj", "{199931AE-86F6-4FAF-A7E4-2A5AD8154FC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomaticScreenshotTaker", "AutomaticScreenshotTaker\AutomaticScreenshotTaker.csproj", "{199931AE-86F6-4FAF-A7E4-2A5AD8154FC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
