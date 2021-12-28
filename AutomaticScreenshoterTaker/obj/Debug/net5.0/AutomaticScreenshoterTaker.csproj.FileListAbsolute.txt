@@ -7,4 +7,3 @@ D:\Repositories\AutomaticScreenshoterTaker\AutomaticScreenshoterTaker\obj\Debug\
 D:\Repositories\AutomaticScreenshoterTaker\AutomaticScreenshoterTaker\obj\Debug\net5.0\AutomaticScreenshoterTaker.csproj.CoreCompileInputs.cache
 D:\Repositories\AutomaticScreenshoterTaker\AutomaticScreenshoterTaker\obj\Debug\net5.0\AutomaticScreenshoterTaker.dll
 D:\Repositories\AutomaticScreenshoterTaker\AutomaticScreenshoterTaker\obj\Debug\net5.0\AutomaticScreenshoterTaker.pdb
-D:\Repositories\AutomaticScreenshoterTaker\AutomaticScreenshoterTaker\obj\Debug\net5.0\AutomaticScreenshoterTaker.csproj.AssemblyReference.cache
