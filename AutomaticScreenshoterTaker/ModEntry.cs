@@ -26,8 +26,14 @@ namespace AutomaticScreenshoterTaker
             // so we only do it when needed
             if (e.NewLocation.Name.StartsWith("Underground"))
             {
+                PauseGame();
                 TakeScreenshot();
             }
+        }
+
+        private void PauseGame()
+        {
+            Game1.activeClickableMenu = new StardewValley.Menus.GameMenu();
         }
 
         private void TakeScreenshot()

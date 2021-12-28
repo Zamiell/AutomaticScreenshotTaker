@@ -1,9 +1,0 @@
-D:\Repositories\AutomaticScreenshoterTaker\AutomaticScreenshoterTaker\bin\Debug\net5.0\AutomaticScreenshoterTaker.deps.json
-D:\Repositories\AutomaticScreenshoterTaker\AutomaticScreenshoterTaker\bin\Debug\net5.0\AutomaticScreenshoterTaker.dll
-D:\Repositories\AutomaticScreenshoterTaker\AutomaticScreenshoterTaker\bin\Debug\net5.0\AutomaticScreenshoterTaker.pdb
-D:\Repositories\AutomaticScreenshoterTaker\AutomaticScreenshoterTaker\obj\Debug\net5.0\AutomaticScreenshoterTaker.GeneratedMSBuildEditorConfig.editorconfig
-D:\Repositories\AutomaticScreenshoterTaker\AutomaticScreenshoterTaker\obj\Debug\net5.0\AutomaticScreenshoterTaker.AssemblyInfoInputs.cache
-D:\Repositories\AutomaticScreenshoterTaker\AutomaticScreenshoterTaker\obj\Debug\net5.0\AutomaticScreenshoterTaker.AssemblyInfo.cs
-D:\Repositories\AutomaticScreenshoterTaker\AutomaticScreenshoterTaker\obj\Debug\net5.0\AutomaticScreenshoterTaker.csproj.CoreCompileInputs.cache
-D:\Repositories\AutomaticScreenshoterTaker\AutomaticScreenshoterTaker\obj\Debug\net5.0\AutomaticScreenshoterTaker.dll
-D:\Repositories\AutomaticScreenshoterTaker\AutomaticScreenshoterTaker\obj\Debug\net5.0\AutomaticScreenshoterTaker.pdb
