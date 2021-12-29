@@ -13,7 +13,6 @@ namespace AutomaticScreenshotTaker
             helper.Events.Player.Warped += this.OnWarped;
         }
 
-
         private void OnWarped(object sender, WarpedEventArgs e)
         {
             if (!Context.IsWorldReady)
@@ -39,15 +38,9 @@ namespace AutomaticScreenshotTaker
                 }
             }
 
-            if (areaName == "Mine")
-            {
-                PauseGame();
-                return;
-            }
-
             // The game lags every time we take a screenshot,
             // so we only do it when needed
-            if (areaName == "BusStop" || (areaName.StartsWith("Underground") && !emptyElevatorFloor))
+            if (areaName.StartsWith("Underground") && !emptyElevatorFloor)
             {
                 PauseGame();
                 TakeScreenshot();
