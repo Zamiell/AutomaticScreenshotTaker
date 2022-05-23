@@ -1,0 +1,10 @@
+﻿{
+  "Sound Bank" : [
+    {
+      "Id": "crystal",
+      "File": "silent.wav",
+      "Loop": true,
+      "Ambient": false
+    }
+  ]
+}
